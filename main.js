@@ -116,9 +116,9 @@ function displayCart() {
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
                 <li>
+                <h3>${item.name}</h3>
                 <img src="${item.name}.png" alt="original flavor" class=photo>
                 <img src="delete.png" alt="delete button" class=icon id = "delete_button" data-name ='${item.name}' data-glaze = '${item.glaze}' data-price = "${item.price}">
-                <h3>${item.name}</h3>
                 <p id=glazeOption>${item.glaze}</p>
                 <div class = countBox>
                     <p class=count>1</p> <p class=count>3</p> <p class=count>6</p> <p class=count>12</p>
