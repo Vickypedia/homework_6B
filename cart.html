@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Bun Bun Bake Shop</title>
+    <meta charset="UTF-8">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <!--header------>
+    <section>
+        <header>
+            <a href="index.html"class="logo"><img src="logo.png" alt="Bun Bun Logo"></a>
+            <div id="header_text">
+                <h1><a href="index.html">Bun Bun Bake Shop</a></h1>
+                <h6>Pittsburgh, PA, 15213</h6>
+            </div>
+            <div>
+                <ul id="NavBar">
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="Cart.html">Cart (<span class="cart-items">0</span>)</a></li>
+                </ul>
+            </div>
+        </header>
+    </section>
+    <!----------------------section titles content------------------------>
+    <section class = cart_title>
+        <div>
+            <h3>Rolls</h3>
+            <hr>
+            <!--- place holder text
+            if no item is added to cart
+            <p>You didn't select any rolls.</p>
+            --->
+        </div>
+        <div>
+            <h3>Drinks</h3>
+            <hr>
+            <p>You didn't select any drinks.</p>
+        </div>
+<!--- actual product content ------------------------------------>
+
+    </section>
+    <div class = cart>
+        <div class = "cart-content">
+        <ul class = "CART" id=item_in_cart>
+            <!-- before javascript, used for testing purposes
+            <li><img src="original.png" alt="original flavor" class=photo>
+                <img src="edit.png" alt="edit button" class=icon id=edit>
+                <img src="delete.png" alt="delete button" class=icon>
+                <h3>Original</h3>
+                <p id=glazeOption>no glaze</p>
+                <div class=countBox>
+                <p class=count>1</p> <p class=count>3</p> <p class=count>6</p> <p class=count>12</p>
+                </div>
+                <p id=price>$12.00</p>
+            </li>
+
+            <li><img src="pecan.png" alt="pecan flavor" class=photo>
+                <img src="edit.png" alt="edit button" class=icon id=edit>
+                <img src="delete.png" alt="delete button" class=icon>
+                <h3>Caramel Pecan</h3>
+                <p id=glazeOption>double chocolate glaze</p>
+                <div class=countBox>
+                <p class=count>1</p> <p class=count>3</p> <p class=count>6</p> <p class=count>12</p>
+                </div>
+                <p id=price>$28.00</p>
+            </li>
+             <li><img src="pecan.png" alt="pecan flavor" class=photo>
+                <img src="edit.png" alt="edit button" class=icon id=edit>
+                <img src="delete.png" alt="delete button" class=icon>
+                <h3>Caramel Pecan</h3>
+                <p id=glazeOption>suger glaze</p>
+                <div class=countBox>
+                <p class=count>1</p> <p class=count>3</p> <p class=count>6</p> <p class=count>12</p>
+                </div>
+                <p id=price>$28.00</p>
+            </li>
+        -->
+        </ul>
+        </div>
+    </div>
+    <!--------float button for purchase---------->
+    <span class="pay">
+        Check Out<br>
+        $<span class="cart-total">0</span>
+    </span>
+
+    <!--footer--->
+    <footer class="footer">
+        <hr>
+        <p>@ 2021Bun Bun Bake Shop. All rights reserved.</p>
+    </footer>
+
+    <script  src="main.js"></script>
+
+</body>
+
+</html>
